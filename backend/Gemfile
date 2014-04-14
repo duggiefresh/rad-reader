@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.0.4'
+gem 'pg'
+
+group :development, :test do
+  gem 'byebug'
+  gem 'm'
+  gem 'minitest-matchers'
+  gem 'minitest-spec-rails', '~> 4.7.5'
+  gem 'valid_attribute'
+end
